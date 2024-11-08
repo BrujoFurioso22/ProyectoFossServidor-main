@@ -1,0 +1,7 @@
+EN CASO DE QUE LA IP DEL SERVIDOR CAMBIE.
+
+Se debera acceder a la carpeta adminRoutes.js que se encuentra en backend/Administrador
+	en la linea 14 donde dice destination, se puede cambiar la ruta que será donde se 
+	guardan los archivos, se deberá cmabiar según las necesidades.
+Como segundo paso, se deberá acceder a adminServices en la misma carpeta y dirigirse a 
+	la línea 53, el valor que se inserta de la ruta, se deberá cmabiar según las necesidades.
