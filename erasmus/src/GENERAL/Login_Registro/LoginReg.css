@@ -67,15 +67,27 @@
     background-color: transparent;
     border-color: #ffffff;
   }
+  .formRegister {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px 50px;
+    height: 100%;
+    text-align: center;
+    overflow-y: auto;
+  }
   .formLogin {
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 20px 50px;
     height: 100%;
     text-align: center;
+    overflow-y: auto;
   }
   
   .inputLogin {
@@ -94,7 +106,7 @@
     overflow: hidden;
     width: 800px;
     max-width: 100%;
-    min-height: 620px;
+    min-height: 500px;
   }
   
   .form-container {

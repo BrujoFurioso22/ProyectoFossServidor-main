@@ -111,7 +111,7 @@ export function Registrarse() {
 
   return (
     <div className="form-container sign-up-container">
-      <form onSubmit={handleOnSubmit} className="formLogin">
+      <form onSubmit={handleOnSubmit} className="formRegister">
         <h1 className="h1Login">Crea una cuenta</h1>
         <input
           type="text"
